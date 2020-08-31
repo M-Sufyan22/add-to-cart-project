@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart With Local Storage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/src/style.css">
+</head>
+
+<body onload="myloading()">
+
+
+    <!-- Loading sectio -->
+    <div class="loading">
+        <p>Please Wait Loading!</p>
+    </div>
+
+    <!-- header -->
+
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <h1>E-Shop</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="cart.html">Cart
+                        <i  class="fa fa-shopping-cart shopping-cart" aria-hidden="true">
+                            <span id="cartnum">0</span>
+                        </i>
+                       
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="shop_product_container">
+        <div class="product_card">
+            <img src="assets/images/prodt5.jpg" alt="">
+            <div class="product_details">
+                <p>Canon DSLR Camera 18-55mm </p>
+                <p>Color: Black</p>
+                <p>price: $<span>360.00</span></p>
+                <button class="add_to_cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product_card">
+            <img src="assets/images/prodt4.jpg" alt="">
+            <div class="product_details">
+                <p>Branded Watch ef23</p>
+                <p>Color: Silver/Diamond</p>
+                <p>price: $<span>110.00</span></p>
+                <button class="add_to_cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product_card">
+            <img src="assets/images/prodt6.jpg" alt="">
+            <div class="product_details">
+                <p>Diamond Watch f34</p>
+                <p>Color: Multi</p>
+                <p>price: $<span>100.00</span></p>
+                <button class="add_to_cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product_card">
+            <img src="assets/images/prodt8.jpg" alt="">
+            <div class="product_details">
+                <p>Huawei Y9s (2019) 128GB - 6GB RAM Breathing Crystal</p>
+                <p>Color: LightBlue</p>
+                <p>price: $<span>250.00</span></p>
+                <button class="add_to_cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product_card">
+            <img src="assets/images/prodt7.jpg" alt="">
+            <div class="product_details">
+                <p>Brand New Silver Men Watch</p>
+                <p>Color: Silver</p>
+                <p>price: $<span>105.00</span></p>
+                <button class="add_to_cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product_card">
+            <img src="assets/images/prodt3.jpg" alt="">
+            <div class="product_details">
+                <p>Simple Men Silver Watch</p>
+                <p>Color: Silver</p>
+                <p>price: $<span>90.00</span></p>
+                <button class="add_to_cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product_card">
+            <img src="assets/images/prodt1.jpg" alt="">
+            <div class="product_details">
+                <p>New Brown Lether Style</p>
+                <p>Color: Brown</p>
+                <p>price: $<span>80.00</span></p>
+                <button class="add_to_cart">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product_card">
+            <img src="assets/images/prodt2.jpg" alt="">
+            <div class="product_details">
+                <p>Modern Lether Style</p>
+                <p>Color: Blue</p>
+                <p>price: $<span>70.00</span></p>
+                <button class="add_to_cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Website Shopping Cart Design by Muhammad Sufyan</p>
+    </footer>
+</body>
+<script src="assets/src/app.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="assets/src/scripts.js">
+</script>
+
+</html>

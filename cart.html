@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your cart</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/src/style.css">
+</head>
+
+<body onload="myloading()">
+
+    <!-- Loading sectio -->
+    <div class="loading">
+        <p>Please Wait Loading!</p>
+    </div>
+
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <h1>E-Shop</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="cart.html">Cart
+                        <i  class="fa fa-shopping-cart shopping-cart" aria-hidden="true"> <span id="cartnum">0</span></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="deletAll">
+        <a href="" id="del_all">
+            <i class="fa fa-trash-o" aria-hidden="true"></i>
+            <span>DeletAll</span>
+        </a>
+    </div>
+    <div class="cart_header">
+        <h2>Product</h2>
+        <h4>Price</h4>
+        <h4>Quantity</h4>
+        <h4>Sub Total</h4>
+    </div>
+
+    <div class="cart_container">
+        <!-- <div class="cart_details">
+            <div class="cart_img">
+                <i class="fa fa-times-circle remove" aria-hidden="true"></i>
+                <img src="assets/images/prodt1.jpg" alt="">
+                <span class="cart_name">Canon DSLR</span>
+            </div>
+            <div class="cart_price">$50.00</div>
+            <div class="cart_qtn">
+                <i class="fa fa-minus-circle inc_dec dec_cart" aria-hidden="true"></i>
+                <span class="qtn_box">1</span>
+                <i class="fa fa-plus-circle inc_dec inc_cart" aria-hidden="true"></i>
+            </div>
+            <div class="cart_item_total">
+                <span id="total_pr">$50.00</span>
+            </div>
+        </div> -->
+    </div>
+    <div class="total_cartPrice">
+        <div class="final_ptice">
+            <h2>Cart Totals</h2>
+            <div class="final_p_box">
+                <span>Total Cart Items</span><span id="total_cartitems">$00.00</span>
+                <span>Total Cart Price</span><span id="total_cartPrice">$00.00</span>
+                <span>Shipping Fee</span><span id="ship_fees">$00.00</span>
+                <span>Final Order Price</span><span id="final_price">$00.00</span>
+            </div>
+            <a class="mybtn" href="checkout-page.html">Proceed to Checkout</a>
+        </div>
+    </div>
+    <footer>
+        <p>Website Shopping Cart Design by Muhammad Sufyan</p>
+    </footer>
+</body>
+<script src="assets/src/app.js"></script>
+
+</html>
