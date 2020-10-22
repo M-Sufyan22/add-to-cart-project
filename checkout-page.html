@@ -13,9 +13,7 @@
         function preventBack() {
             window.history.forward();
         }
-
         setTimeout("preventBack()", 0);
-
         window.onunload = function() {
             null
         }
@@ -32,31 +30,34 @@
     <!-- header -->
 
     <header>
-        <div class="logo">
-            <a href="index.html">
-                <h1>E-Shop</h1>
-            </a>
+        <div class="header_container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>E-Shop</h1>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="cart.html">Cart
+                            <i  class="fa fa-shopping-cart shopping-cart" aria-hidden="true">
+                                <span id="cartnum">0</span>
+                            </i>
+                           
+                        </a>
+                    </li>
+                </ul>
+            </nav> 
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="">About</a>
-                </li>
-                <li>
-                    <a href="cart.html">Cart
-                        <i  class="fa fa-shopping-cart shopping-cart" aria-hidden="true">
-                            <span id="cartnum">0</span>
-                        </i>
-                       
-                    </a>
-                </li>
-            </ul>
-        </nav>
     </header>
 
+    <div class="container_section">
     <div class="deletAll" style="text-align: left;">
         <a class="mybtn" href="cart.html"><i class="fa fa-arrow-left" aria-hidden="true"></i> Go BAck</a>
     </div>
@@ -651,7 +652,7 @@
             <!-- form End -->
         </div>
     </div>
-
+</div>
     <footer>
         <p>Website Shopping Cart Design by Muhammad Sufyan</p>
     </footer>
